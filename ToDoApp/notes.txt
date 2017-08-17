@@ -1,0 +1,9 @@
+1)file => local.properties : 
+sdk.dir = /Users/ramintaghizada/Library/Android/sdk
+
+2)file => gradle.properties :
+org.gradle.daemon=true
+
+3)file => Library/Android/sdk/tools/
+> ./emulator -list-avds
+> ./emulator Nexus_5X_API_24
